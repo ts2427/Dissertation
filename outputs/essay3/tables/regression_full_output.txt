@@ -1,0 +1,161 @@
+
+============================================================
+MODEL 1
+============================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      volatility_change   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                 -0.000
+Method:                 Least Squares   F-statistic:                    0.7563
+Date:                Tue, 28 Oct 2025   Prob (F-statistic):              0.385
+Time:                        12:33:59   Log-Likelihood:                -3016.7
+No. Observations:                 729   AIC:                             6037.
+Df Residuals:                     727   BIC:                             6047.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+========================================================================================
+                           coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                   -1.6119      0.650     -2.479      0.013      -2.886      -0.338
+immediate_disclosure    -1.1205      1.288     -0.870      0.384      -3.646       1.405
+==============================================================================
+Omnibus:                      255.511   Durbin-Watson:                   1.867
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4283.209
+Skew:                          -1.114   Prob(JB):                         0.00
+Kurtosis:                      14.664   Cond. No.                         2.43
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+
+============================================================
+MODEL 2
+============================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      volatility_change   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                 -0.002
+Method:                 Least Squares   F-statistic:                    0.3805
+Date:                Tue, 28 Oct 2025   Prob (F-statistic):              0.684
+Time:                        12:33:59   Log-Likelihood:                -3016.7
+No. Observations:                 729   AIC:                             6039.
+Df Residuals:                     726   BIC:                             6053.
+Df Model:                           2                                         
+Covariance Type:                  HC3                                         
+========================================================================================
+                           coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                   -1.7024      0.846     -2.013      0.044      -3.360      -0.044
+immediate_disclosure    -1.1082      1.287     -0.861      0.389      -3.630       1.413
+large_firm               0.1697      1.124      0.151      0.880      -2.033       2.372
+==============================================================================
+Omnibus:                      255.620   Durbin-Watson:                   1.868
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4283.185
+Skew:                          -1.115   Prob(JB):                         0.00
+Kurtosis:                      14.664   Cond. No.                         3.03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+
+============================================================
+MODEL 3
+============================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      volatility_change   R-squared:                       0.002
+Model:                            OLS   Adj. R-squared:                 -0.002
+Method:                 Least Squares   F-statistic:                    0.4106
+Date:                Tue, 28 Oct 2025   Prob (F-statistic):              0.745
+Time:                        12:33:59   Log-Likelihood:                -3016.4
+No. Observations:                 729   AIC:                             6041.
+Df Residuals:                     725   BIC:                             6059.
+Df Model:                           3                                         
+Covariance Type:                  HC3                                         
+===========================================================================================
+                              coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                      -1.9651      0.898     -2.187      0.029      -3.726      -0.204
+immediate_disclosure       -0.2950      1.808     -0.163      0.870      -3.839       3.249
+large_firm                  0.6626      1.296      0.511      0.609      -1.878       3.203
+disclosure_x_governance    -1.6894      2.578     -0.655      0.512      -6.743       3.364
+==============================================================================
+Omnibus:                      256.995   Durbin-Watson:                   1.866
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4325.199
+Skew:                          -1.122   Prob(JB):                         0.00
+Kurtosis:                      14.720   Cond. No.                         6.36
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+
+============================================================
+MODEL 4
+============================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      volatility_change   R-squared:                       0.004
+Model:                            OLS   Adj. R-squared:                 -0.001
+Method:                 Least Squares   F-statistic:                    0.9404
+Date:                Tue, 28 Oct 2025   Prob (F-statistic):              0.440
+Time:                        12:33:59   Log-Likelihood:                -3015.6
+No. Observations:                 729   AIC:                             6041.
+Df Residuals:                     724   BIC:                             6064.
+Df Model:                           4                                         
+Covariance Type:                  HC3                                         
+===========================================================================================
+                              coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                      -2.2178      0.926     -2.394      0.017      -4.033      -0.402
+immediate_disclosure       -0.2693      1.829     -0.147      0.883      -3.854       3.315
+large_firm                  0.3522      1.355      0.260      0.795      -2.303       3.007
+disclosure_x_governance    -1.8089      2.611     -0.693      0.488      -6.925       3.308
+fcc_reportable              1.7400      1.401      1.242      0.214      -1.005       4.485
+==============================================================================
+Omnibus:                      256.694   Durbin-Watson:                   1.870
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4413.259
+Skew:                          -1.114   Prob(JB):                         0.00
+Kurtosis:                      14.846   Cond. No.                         6.52
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+
+============================================================
+MODEL 5
+============================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      volatility_change   R-squared:                       0.025
+Model:                            OLS   Adj. R-squared:                  0.017
+Method:                 Least Squares   F-statistic:                     2.828
+Date:                Tue, 28 Oct 2025   Prob (F-statistic):            0.00999
+Time:                        12:33:59   Log-Likelihood:                -3007.8
+No. Observations:                 729   AIC:                             6030.
+Df Residuals:                     722   BIC:                             6062.
+Df Model:                           6                                         
+Covariance Type:                  HC3                                         
+===========================================================================================
+                              coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                     -28.1740     11.086     -2.541      0.011     -49.903      -6.445
+immediate_disclosure       -0.4222      1.793     -0.235      0.814      -3.936       3.092
+large_firm                 -4.0214      1.974     -2.037      0.042      -7.891      -0.152
+disclosure_x_governance    -2.3469      2.608     -0.900      0.368      -7.459       2.765
+fcc_reportable              1.4532      1.361      1.068      0.286      -1.214       4.121
+firm_size_log               2.7718      1.033      2.682      0.007       0.747       4.797
+leverage                   -1.5034      3.627     -0.415      0.678      -8.611       5.605
+==============================================================================
+Omnibus:                      234.275   Durbin-Watson:                   1.891
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4234.088
+Skew:                          -0.957   Prob(JB):                         0.00
+Kurtosis:                      14.650   Cond. No.                         167.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
